@@ -47,3 +47,40 @@ Configuration Management - Ansible, chef, puppet
 Containarization : Docker , Kubernetes
 IAAS - TerraForm, CloudFormation
 Monitoring And Logging : Prometus, ELK stack , Splunk, Grafna, Datalog
+
+
+CI - Continous Integration:
+It is practice of frequently merging the code into central repositories and running automated tests to ensure the code stability. Each integration followed by automated build and tests to catch and fix integration errorrs. 
+CD - Contious Delivery: 
+It extends the CI automatically by pushing changes through the pipelines to  staging environment, where they can easily reviewed and approved for PROD.
+Continous Deployment: Eliminating the need of manual approval of changes before they are released into production. As llong as the changes pass all the automated test and check, they are automatically deployed to PROD.
+
+GIT - Version Control. Multiple developers can collabrate the codebase simutanesioly. they create theirown branch and push the code code to the main repositorey. Rollback is also can do here.
+
+Blue- Green Deployment:
+It is a release management strategy that involves running to identical PROD Environment. At any given point of time, one env is live, where the other servives as a staging env for testing the new release. 
+
+Rollback are essential for quick recovering from Faulty deployment and Configuration changes.
+
+--> Version control Changes to revert code changes. 
+--> Leverage IAAC
+--> Blue- green deployment 
+--> Monitor and Log Deployment
+
+Best Practices in DEVOPS:
+
+Regualarly conducting Security Risk assessment and Audits
+Secure coding practice and code reviews
+Automated security testing tools
+Create a SAND-BOX envirnment to developing without affecting other systems
+Ensure the Network and infrastructure best practices - firewalls, encryption, Access control
+Monitoring and logging the security events
+DevSecOps best practices
+
+
+SHIFT-LEFT:
+Address the potential issues such as bugs, performance problems, security vulerarites in the early in the developement process rather than later in the pipeline. Catching the fix the issue at the early stage of the developent process reduce the overall costs and better quality.
+
+
+
+
