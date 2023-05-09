@@ -1,0 +1,39 @@
+ GitHub for Code Management 
+ Splunk for Log Consolidation
+ Jira for Release Planning
+ Harness/UCD for Deployment
+ Concourse/Jenkins for Continuous Integration
+ SonarQube for Static Code Analysis
+ Rocket.Chat for persistent team collaboration
+ Start DevOps Handbook book club
+ Develop continuous improvement (CI) mindset
+ New Relic for Application Performance Monitoring
+-------------------------------------------------------
+Version control everything (GitHub)
+Code to trunk (GitHub)
+Use Pull requests and automated code quality checks (GitHub, SonarQube)
+Practice Continuous Integration (Jenkins, Concourse)
+Use test automation, get tests to green, trust in automation
+Decouple application from dependencies
+Automate development pipeline
+Monitor test environments and production (New Relic, Splunk) 
+Automate code and data deployments (Harness/UCD)
+Implement dark launching to mitigate dependencies
+Use canary releases and blue/green deployments to minimize risk
+Release code when ready/certified (Harness/UCD)
+--------------------------------------------------------
+Implement Poly-skilling (dev/test pairing)
+Team takes ownership for all steps in their pipeline (performance testing, security testing, deployment) 
+Push pipeline health issues to Rocket.Chat 
+Use chat bots to minimize context  switching (Rocket.Chat)
+Define done to mean ready to deploy to production  (UAT, perf, security testing all done even if card is being dark launched) 
+Use visual dashboards for entire value stream to identify blockers and wait states
+Map value stream and understand constraints, to drive CI
+Use lead time metrics, MTTR, frequency of deployment and change rate success to identify CI opportunities
+-------------------------------------------------------
+Implement Continuous Delivery (have the ability to release multiple times per day or week) 
+Implement ChatOps (Rocket.Chat)
+Business partners deliver work in small batch sizes leading to single piece flow
+Business partners execute changes as experiments (MMP, drive change based off of user feedback, capture and act on metrics) 
+Automate production validation
+Automate feedback loop from production driving improvements in MTTR
