@@ -1,0 +1,46 @@
+hat makes up S3 Costs:
+
+STORAGE
+DATA TRANSFER
+APIs
+ANALYTICS & MANAGEMENT
+
+
+STORAGE:
+
+STORAGE CLASS:
+
+Important COnsiderations:
+
+
+Access Rates
+Object Size < 128kb
+Object Count
+Duration
+
+Move the data into the right storage class:
+Intelligent Tiering 
+Life Cycle
+Direct PUTs
+
+Tools to review the service usage:
+
+AWS Cost Explorer
+S3 Storage Lens
+AWS Cost & Usage Report
+Amazon CloudWatch
+Service Logs
+S3 Inventory Reports
+ 
+Versioning - Enabled Buckets
+Multi-part Uploads
+
+
+Data Transfer into S3 is free 
+Data transfer between one bucket to another bucket inn same region is free
+
+
+
+
+
+Lambda Powetunning
