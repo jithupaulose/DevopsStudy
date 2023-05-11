@@ -1,0 +1,84 @@
+Keys for Devops
+
+Infrastructure - Underlying System and Hardware for the software development and delivery
+Automation - Automate most of the manual work. Example through Terraform, Ansible
+Monitoring - Keeping track of how application is running, understand the metrics.
+
+STEPS:
+
+Fundementals of Linux scripts with Basics Linux commands
+Importance of Networking - DNS, TCP/IP Protocol, Gateway and Routing, Subnetting and CIDR
+Virutalization and Operating System - how to install and configure OS in Vmachines
+Programming - Python - Flask, DJango, Boto3
+GIT commands
+
+CLOUD Knowledge - AWS
+
+Infrastructure AS code
+YAML, JSON - Teraform
+Ansible - COnfiguration Management
+
+CI/CD Tools
+
+Conterization
+Docker , Kubernetes
+---------------------------------------------------------------------
+
+Important Tools in AWS for Devops Engineer
+
+
+Fundamental AWS Services:
+VPC
+EC2
+RDS
+IAM
+
+CICD ServIces in AWS:
+
+CodeCommit
+CodeBuild
+CodeDeploy
+CodePipeline
+
+Networking services in AWS
+
+Route53
+VPC
+
+Database services in AWS
+
+DynamoDB
+RDS
+ElasticCache
+Redshift
+
+Infrastructure as Code Service in AWS
+
+CloudFormation
+
+Container services in AWS
+
+ECS
+EKR
+FARGATE
+ECR
+
+Monitoring services in AWS
+
+CloudWatch
+CloudTrail
+
+Automation services in AWS
+
+Lambda
+System Manager
+Elastic BeanStack
+
+Security services in AWS
+
+KMS
+Secret Manager
+
+Data Processing:
+Glue
+EMR
