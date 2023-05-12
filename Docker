@@ -3,3 +3,5 @@ Docker is a container Technology.
 Container is a standardized unit of software. It is a package of code and dependencies to run that code.
 Example : Picinic Box
 Isolated
+
+Docker is a tool to build the containers.
